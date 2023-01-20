@@ -1,0 +1,319 @@
+.container {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar-brand {
+    margin: 40px 0px;
+}
+
+.navbar-nav {
+    margin: 30px 0px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+.nav-item {
+   margin-left: 34px;
+}
+
+.btn{
+    border-color: #FB8F1D;
+    color: #FB8F1D;
+}
+
+.btn:hover {
+    color: white;
+    background: #FB8F1D;
+}
+
+.btn-nav {
+    background:#FB8F1D;
+}
+
+.btn-nav:hover {
+    background: darkorange;
+}
+
+.form-select {
+    width: 220px;
+    height: 52px;
+}
+
+.content {
+    display: flex;
+    margin-top: 70px;
+}
+
+.name-site {
+    margin: 0px 100px 50px 10px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.subtitles-site {
+    margin: 0px 0px 50px 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.form-select {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.btn-all {
+    width: 180px;
+    height: 52px;
+    margin: 50px 0px 0px 15px;
+    background: #FB8F1D;
+    color: white;
+}
+
+.btn-all:hover{
+    background: darkorange;
+}
+
+@media (min-width: 300px) {
+    @media (max-width: 1280px) {
+        .row.g-2 {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+}
+
+@media (min-width: 300px) {
+    @media (max-width: 700px) {
+        .img-select {
+            display: none;
+        }
+        .img-world {
+            display: none;
+        }
+        .img-app {
+            display: none;
+        }
+        .group-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.content-all {
+    display: flex;
+    margin-top: 180px;
+}
+
+.img-world {
+    margin-right: 90px;
+}
+
+.title-all{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+.text-all {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.btn-world {
+    margin-top: 35px;
+}
+
+.title-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 56px;
+    margin-top: 180px;
+}
+
+.name-card{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.link-card {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FB8F1D;
+    text-decoration: none;
+    list-style: none;
+}
+
+.link-card:hover{
+    color: orangered;
+}
+
+.text-arr{
+    position: relative;
+}
+
+.img-arr{
+    position: absolute;
+    top: 25px;
+    left:75px
+}
+.group-card{
+    display: flex;
+}
+
+.card {
+    border: none;
+    margin: 0px 20px;
+}
+
+.img-card {
+    width: 245px;
+    height: 350px;
+    border-radius: .375rem;
+    position: relative;
+}
+
+.card-body {
+    position: absolute;
+    top: 245px;
+    left: -5px;
+
+    background-color: white;
+    border-radius: 0.360rem;
+}
+
+.card-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #042521;
+}
+
+.card-text {
+    font-family: 'Inter';
+    font-size: 15px;
+    color: gray;
+}
+
+.img-app {
+    margin-left: 120px;
+}
+
+.content-review {
+    display: flex;
+    margin-top: 180px;
+}
+
+.title-review {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 60px;
+
+
+}
+
+.text-review {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 30px;
+    margin-right: 400px;
+    margin-bottom: 40px;
+}
+
+.text-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+.subtext {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.img-review {
+    border-radius: .375rem;
+}
+.photo-title {
+    margin-top: 10px;
+}
+
+.photo-card {
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+
+.photo-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #7D7987;
+}
+
+.link-text {
+    color: #FB8F1D;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+
+
+
+
+
+
+
